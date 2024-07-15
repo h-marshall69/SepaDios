@@ -1,6 +1,6 @@
-from settings import *
-from entities import Player
-from scenes import MainScene
+from game.settings import *
+from game.entities import Player
+from game.scenes import MainScene
 
 class Game:
     def __init__(self):

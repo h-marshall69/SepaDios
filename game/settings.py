@@ -1,4 +1,4 @@
 CAPTION = "My videogame"
-WIDTH = 720
-HEIGHT = 400
+WIDTH = 800
+HEIGHT = 600
 FPS = 60

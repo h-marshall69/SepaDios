@@ -1,6 +1,6 @@
 import pygame as pg
-from settings import *
-from entities import Player
+from game.settings import *
+from game.entities import Player
 
 
 class Scene:
