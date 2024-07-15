@@ -1,6 +1,9 @@
-from game.settings import *
-from game.entities import Player
-from game.scenes import MainScene
+import sys
+import pygame as pg
+
+from settings import *
+from entities import Player
+from scenes import MenuScene
 
 class Game:
     def __init__(self):
@@ -9,7 +12,7 @@ class Game:
         self.display = pg.display.set_mode((WIDTH, HEIGHT))
         self.clock = pg.time.Clock()
 
-        self.scene = MainScene(self)            # Scene
+        self.scene = MenuScene(self)            # Scene
 
     def run(self):
         while 1:
